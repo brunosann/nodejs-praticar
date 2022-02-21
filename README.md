@@ -1,6 +1,6 @@
 # Praticando Nodejs
 
-# Todo de Receitas
+# CRUD de Receitas
 
 Node + Typescript
 
