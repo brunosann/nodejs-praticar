@@ -8,6 +8,7 @@ Node + Typescript
 
 `Node v16.13.2`
 `npm i -g nodemon typescript ts-node`
+`mysql`
 
 ### Instalação
 
