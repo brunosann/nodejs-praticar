@@ -11,8 +11,8 @@ export const store = async (req: Request, res: Response) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) return res.status(422).json({ errors: errors.mapped() });
 
-  await Recipe.create(req.body);
-  res.status(201).json();
+  const recipe = await Recipe.create(req.body);
+  res.status(201).json(recipe);
 };
 
 export const show = async (req: Request, res: Response) => {

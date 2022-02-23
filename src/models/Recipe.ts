@@ -14,6 +14,7 @@ export const Recipe = sequelize.define<RecipeInstance>(
   {
     id: {
       primaryKey: true,
+      autoIncrement: true,
       type: DataTypes.INTEGER,
     },
     title: {
