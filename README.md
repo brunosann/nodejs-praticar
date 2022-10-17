@@ -16,4 +16,6 @@ Node + Typescript
 
 ### Para rodar o projeto
 
+- Crie um `.env` na raiz do projeto e copie as variáveis de ambiente do `.env.example`
+
 `npm run start-dev`
